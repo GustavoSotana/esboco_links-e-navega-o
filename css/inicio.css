@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -36,7 +32,7 @@ main {
 
 #introducao {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 30px;
     padding: 30px;
     background-color: rgb(94, 63, 63);
@@ -84,8 +80,7 @@ main {
     border-radius: 20px;
     height: 300px;
     object-fit: cover;
-    display: block;
-    margin: 0 auto;
+    display: flex;
 }
 
 .card h3 {
@@ -117,21 +112,16 @@ main {
 }
 
 a {
-    display: inline-block;
+
     margin-top: 10px;
     color: white;
     background-color: #8a8888;
-    padding: 10px 15px;
+    padding: 10px;
     font-weight: oswald, sans-serif;
     text-decoration: none;
     border-radius: 5px;
-    transition: 0.3s;
 }
 
-a:hover {
-    color: white;
-    background-color: #720404;
-}
 
 h2 {
     font-size: 40px;
@@ -149,10 +139,8 @@ footer {
 #curiosidades img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
     border-radius: 10px;
     margin-top: 15px;
-    display:block;
 }
 
 #curiosidades article {
@@ -160,14 +148,13 @@ footer {
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     font-size: 50px;
     font-family: oswald, sans-serif;
     margin-bottom: 20px;
-  
+
 }
 
 H2 {
